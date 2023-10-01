@@ -1,5 +1,6 @@
-# EFO_maingate
-Maingate for the EXPERIMENTAL FILMS ONLINE
+# Experimental Films Online
+Maingate:
+Traveling at the speed of light. With Isomorphic brightness, sparkling feelings and glowing thoughts...
 
 ## KWALHIA PORTALS
 
