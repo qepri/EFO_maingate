@@ -71,6 +71,7 @@ canvas {
     margin: 2vh;
     color: white;
     font-family: 'Roboto Mono';
+    text-decoration: none;
   }
 
   .portales button:hover, a:hover {
@@ -97,14 +98,13 @@ canvas {
 
     .portales {
       padding-top: 5vh;
-     
       text-align: center;
   
     }
 
     .portales button {
 
-      font-size: 13px;
+      font-size: 19px;
       margin: 10px;
       width: 50%;
       align-items: center;
