@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <title>PORTAL</title>
+    <meta name="description" content="Watch experimental films online. Mira cine experimental online">
+    <link rel="icon" type="image/gif" sizes="256x256" href="fire256.gif">
+    <link rel="icon" type="image/gif" sizes="256x256" href="fire256.gif">
+    <link rel="icon" type="image/png" sizes="500x500" href="kwh_logo.png">
+    <link rel="icon" type="image/gif" sizes="256x256" href="fire256.gif">
+    
+    <title>EXPERIMENTAL FILMS ONLINE : MAIN GATE</title>
+    <script src="assets/js/hydra.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css">s/main.css">
+  
 </head>
 <body>
 
     
-<canvas id="canvas" style="z-index: -3;"></canvas>
+
     
     <main class="portales">
-        <section class="main_gate">
+       
             <button> 
             <a href="https://2023.experimentalfilms.online">
             <h3>THE SUN SHINES FOR EVERYONE
@@ -35,46 +41,11 @@
             <span>Official Selection 2021</span>
         </a>
         </button>
-    </section>
+
         
     </main>
 
-    <script>
-        // JavaScript code goes here
-        const canvas = document.getElementById('canvas');
-        const ctx = canvas.getContext('2d');
-        
-        canvas.height = window.innerHeight;
-        canvas.width = window.innerWidth;
-        
-        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@$%&';
-        const fontSize = 10;
-        const columns = canvas.width / fontSize;
-        const drops = [];
-        
-        for(let i = 0; i < columns; i++) {
-          drops[i] = 1;
-        }
-        
-        function draw() {
-          ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
-          ctx.fillRect(0, 0, canvas.width, canvas.height);
-          
-          ctx.fillStyle = '#00FF00'; // Green color
-          ctx.font = fontSize + 'px monospace';
-          
-          for(let i = 0; i < drops.length; i++) {
-            const text = characters.charAt(Math.floor(Math.random() * characters.length));
-            ctx.fillText(text, i * fontSize, drops[i] * fontSize);
-            
-            if(drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
-              drops[i] = 0;
-            }
-            drops[i]++;
-          }
-        }
-        
-        setInterval(draw, 33); // 33ms for ~30 frames per second
-        </script>
+    <script src="assets/js/hyperspace.js"></script>
+    
 </body>
 </html>

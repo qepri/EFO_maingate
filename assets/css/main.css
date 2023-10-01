@@ -55,9 +55,11 @@ canvas {
 
 
   .portales {
+    position: sticky;
     padding-top: 20vh;
     margin-left: 30VW;
     text-align: center;
+    z-index: 23;
 
   }
 
@@ -65,6 +67,12 @@ canvas {
     text-align: center;
     padding: 10px;
     margin: 2vh;
+    color: white;
+    font-family: 'Roboto Mono';
+  }
+
+  .portales button:hover, a:hover {
+    background-color: #8d0000;
   }
 
   .portales button {
@@ -77,6 +85,30 @@ canvas {
     justify-content: space-around;
     align-content: center;
     flex-wrap: nowrap;
+    background-color: #484848;
+    color: white;
+    border-radius: 15px;
   }
 
+
+  @media (max-width: 768px) {
+
+    .portales {
+      padding-top: 5vh;
+     
+      text-align: center;
+  
+    }
+
+    .portales button {
+
+     
+      margin: 10px;
+      width: 50%;
+      align-items: center;
+     
+    }
+
+    
+  }
   
