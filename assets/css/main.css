@@ -104,12 +104,13 @@ canvas {
 
     .portales button {
 
-     
+      font-size: 13px;
       margin: 10px;
       width: 50%;
       align-items: center;
      
     }
+    
 
     
   }
