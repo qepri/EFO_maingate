@@ -9,8 +9,9 @@ var hydra = new Hydra({
  });
 
 // kordac uxmat * enter the vritual - https:kordac.qepri.xyz
-
- voronoi(350, 0.15)
+// licensed with CC BY-NC-SA 4.0 https://creativecommons.org/licenses/by-nc-sa/4.0/
+ 
+voronoi(350, 0.15)
  	.modulateScale(osc(8)
  		.rotate(Math.sin(time)), .25)
  	.thresh(.8)
