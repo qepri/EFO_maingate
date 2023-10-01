@@ -54,17 +54,29 @@ canvas {
   }
 
 
-  main {
+  .portales {
     padding-top: 20vh;
     margin-left: 30VW;
-
-  }
-
-  button {
     text-align: center;
-    display: flex;
-    flex-direction: column;    
-    padding: 30px;
-    margin: 20px;
-    width: 50%;
+
   }
+
+  .portales a {
+    text-align: center;
+    padding: 10px;
+    margin: 2vh;
+  }
+
+  .portales button {
+
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: nowrap;
+  }
+
+  
